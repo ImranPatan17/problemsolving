@@ -5,7 +5,7 @@ public class A_Catch_the_Coin{
         int t= sc.nextInt();
         while(t-->0){
          
-            int x=sc.nextInt(),y=sc.nextInt();
+            int y=sc.nextInt();
         //     int mx=0,my=0;
         //     if(y<=0){
         //         while( my>=0){

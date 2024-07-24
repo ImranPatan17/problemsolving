@@ -14,5 +14,6 @@ else
 x=2;
 System.out.println(x);
     }
+    sc.close();
    }
 }

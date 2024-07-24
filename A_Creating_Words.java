@@ -11,5 +11,6 @@ public class A_Creating_Words{
     char ch2=str2.charAt(0);
     System.out.println(ch2+str1.substring(1,3)+" "+ch1+str2.substring(1,3));
         }
+        sc.close();
  }
 }
