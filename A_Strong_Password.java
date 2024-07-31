@@ -22,7 +22,7 @@ if(found == true)
 System.out.println( inserted.toString());
 else
 {
-    if (s.length()==1) {
+    if (s.length()==1||s.length()==2) {
         char c=s.charAt(0);
         System.out.println((char)(c+1)+s);
     }
