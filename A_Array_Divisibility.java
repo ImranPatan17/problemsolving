@@ -12,4 +12,5 @@ public class A_Array_Divisibility{
     }
     System.out.println();
         }
+        sc.close();
        }}

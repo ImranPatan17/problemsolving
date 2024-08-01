@@ -5,7 +5,11 @@ public class A_Soccer{
         int t=sc.nextInt();
         while(t-->0){
             int x1=sc.nextInt(),y1=sc.nextInt(),x2=sc.nextInt(),y2=sc.nextInt();
-            System.out.println((x1<y1&&x2>=y1&&x2>=y2)||(y1<x1&&y2>=x1&&y2>=x2)?"NO":"YES");
+            if((x1<y1&&x2>=y1&&x2>=y2)||(y1<x1&&y2>=x1&&y2>=x2))
+            System.out.println("NO");
+            else
+            System.out.println("YES");
         }
+        sc.close();
         }
 }
