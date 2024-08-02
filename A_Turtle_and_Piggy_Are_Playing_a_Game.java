@@ -7,15 +7,11 @@ public class A_Turtle_and_Piggy_Are_Playing_a_Game {
         while (t-- > 0) {
 
             int l = sc.nextInt();
-            int r = sc.nextInt();
-            int x = r;
-            int p = l;
-            int score = 0;
-            while (x > 1) {
-                x = x / p;
-                score++;
-            }
-            System.out.println(score);
+            double r = sc.nextInt();
+            
+            
+            int result=(int)(Math.log(r)/Math.log(2));
+            System.out.println(result);
         }
         sc.close();
     }
